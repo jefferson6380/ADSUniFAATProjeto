@@ -1,7 +1,7 @@
 CREATE DATABASE Escola;
-Use Escola;
+USE Escola;
 
--- Criação da tabela de usuários
+-- Criação da tabela de alunos
  CREATE TABLE IF NOT EXISTS Aluno (
     id_aluno (PK, INT, AutoIncremento)
     nome_completo (VARCHAR(255))
@@ -22,7 +22,7 @@ Use Escola;
  );
 
   -- Criação da tabela de Professor
- CREATE TABLE IF NOT EXISTS Turma (
+ CREATE TABLE IF NOT EXISTS Professor (
     id_professor (PK, INT, AutoIncremento)
     nome_completo (VARCHAR(255))
     email (VARCHAR(100))
