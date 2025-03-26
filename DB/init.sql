@@ -1,3 +1,6 @@
+CREATE DATABASE Escola;
+use Escola;
+
 -- Criação da tabela de usuários
  CREATE TABLE IF NOT EXISTS Aluno (
     id_aluno (PK, INT, AutoIncremento)
