@@ -1,5 +1,5 @@
 CREATE DATABASE Escola;
-use Escola;
+Use Escola;
 
 -- Criação da tabela de usuários
  CREATE TABLE IF NOT EXISTS Aluno (
